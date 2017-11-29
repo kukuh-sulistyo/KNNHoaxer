@@ -3,7 +3,7 @@ var path = require('path');
 var HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
-	entry: path.resolve(__dirname, 'src/javascripts/app.js'),
+	entry: path.resolve(__dirname, 'src/app.js'),
 	output: {
 		path: path.resolve(__dirname, 'dist'),
 		filename: 'js/bundle.js'
@@ -21,7 +21,7 @@ module.exports = {
 				use: {
 					loader: 'babel-loader',
 					options: {
-						presets: ['latest', 'stage-0']
+						presets: ['latest', 'stage-0', 'react']
 					}
 				}
 			},
