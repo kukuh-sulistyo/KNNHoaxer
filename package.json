@@ -1,7 +1,7 @@
 {
   "name": "knn",
   "version": "1.0.0",
-  "description": "",
+  "description": "program knn",
   "main": "webpack.config.js",
   "scripts": {
     "start": "webpack-dev-server"
